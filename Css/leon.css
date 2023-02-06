@@ -375,6 +375,10 @@ body {
     margin: 20px auto;
   }
 }
+@media (max-width:767px) {
+  .about .text {
+    padding-left:0;}
+}
 .about .image::before {
   content: "";
   position: absolute;
